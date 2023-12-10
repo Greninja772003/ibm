@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+}
+#main{
+    display: flex;
+   
+   
+    flex-direction: column;
+}
+#main header{
+    font-size: 30px;
+   
+    color: lavender;
+   display: flex;
+   justify-content: center;
+   background-color:teal;
+   border-bottom: black 1px solid;
+}
+#main section{
+   
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    gap: 10px;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+}
+#main section img{
+    width: 40%;
+    height: 80%;
+}
+.options {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+header{
+color:lavender;
+background-color: teal;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+height: 10%;
+}
+#container{
+    display: flex;
+    flex-direction: column; /* Changed from column to row */
+    justify-content: space-between;
+    height: 81%;
+    background-color: white;
+}
+.card{
+display: flex;
+
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+.column2{
+    width: 60%;
+    height: 85%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.column2 h2{
+   color: rgb(19, 138, 35);
+    text-align: start;
+    font-size: 35px;
+}
+.list{
+    display: flex
+
+}
+.coffee{
+    border: solid black 1px;
+}
+.pizza{
+    border: solid black 1px;
+}
+.pasta{
+    border: solid black 1px;
+}
+.bevrage{
+    border: solid black 1px;
+}
+.box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+.details{
+    width: 60%;
+   gap: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.details h2{
+    text-align: center;
+}
